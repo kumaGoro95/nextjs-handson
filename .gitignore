@@ -1,0 +1,37 @@
+node_modules/
+
+# Next.jsのビルド出力
+.next/
+
+# Vercelの設定ファイル
+.vercel/
+
+# ローカル環境での設定ファイル
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScriptの出力
+dist/
+*.tsbuildinfo
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 編集用エディタの設定ファイル
+.vscode/
+.idea/
+
+# logファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# coverage（テストカバレッジ）
+coverage/
+
+# next exportの出力（静的HTML出力した場合）
+out/
